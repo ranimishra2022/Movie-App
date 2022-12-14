@@ -1,0 +1,14 @@
+.movie-list, .show-list{
+    margin: 20px 0px;
+}
+.movie-list h2, .shows-list h2{
+color:white;
+margin-bottom:10px;
+font-weight:900;
+}
+/* .movie-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ /* repeat(how many columns or row , height of coloumns and row)*//*
+    gap: 25px;
+} */
