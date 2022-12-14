@@ -21,15 +21,18 @@ const Header = ()=>{
 
     }
     return(<>
-    <div className="header">
+    <div className="header-container">
+        <div className="header">
+    <div className="img"><img src={usericon} alt="img"/></div>
         <div className="logo"><Link to="/">MovieApp</Link></div>
+        </div>
         <div className="search-bar">
             <form onSubmit={submitHandler}>
                 <input type="text" placeholder="Search Movies or Shows" value={term} onChange={changeHandler}/>
                 <button type="submit"><SearchIcon/></button>
             </form>
         </div>
-        <div className="img"><img src={usericon} alt="img"/></div>
+       
     </div>
     </>)
 }

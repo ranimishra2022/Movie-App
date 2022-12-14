@@ -7,8 +7,8 @@ import { fetchAsyncMovies, fetchAsyncShows } from '../../features/movieSlice';
 // import { addMovies } from '../../features/movieSlice';
 const Home = ()=>{
     const dispatch = useDispatch();
-    const movieText = "Harry potter";
-    const showText = "Friends";
+    const movieText = "mission";
+    const showText = "friends";
 useEffect(()=>{
 //     const movieText = "harry";
 // const api = async()=>{

@@ -40,3 +40,10 @@ background-color: rgb(34, 33, 33);
 .movie-right{
     margin-right:20px;
 }
+@media screen and (max-width:950px){
+    .movie-section{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
